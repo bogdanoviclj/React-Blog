@@ -1,0 +1,23 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(96, 113, 100);
+    margin: 50px;
+    color: white;
+}
+
+.item:first-child {
+    margin-top: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 30px;
+    font-weight: 500;
+}
+
+.paragraph {
+    text-align: start;
+    margin: 10px 30px 20px 30px;
+}
